@@ -1,0 +1,384 @@
+{
+ "_说明": "小岛植物布局。坐标均为原图 1672x941 像素。tree/bush: at=根部中心, h/w=目标高/宽; flower: head=花头中心, hw=花头宽。occ=遮挡物(cottage 房子 / museum 博物馆 / fence 栅栏 / mailbox 邮筒)。flip=水平翻转",
+ "sprites": {
+  "cherry": "a-0",
+  "apple": "a-1",
+  "pine": "a-2",
+  "anemone": "a-3",
+  "tulipY": "a-4",
+  "tulipW": "a-5",
+  "hyacinth": "a-6",
+  "daisy": "a-7",
+  "bush": "b-0",
+  "bushPink": "b-1",
+  "bushOrange": "b-2",
+  "bushSmall": "b-3",
+  "clump": "b-4",
+  "bushWide": "b-5"
+ },
+ "items": [
+  {
+   "s": "pine",
+   "kind": "tree",
+   "at": [
+    1052,
+    318
+   ],
+   "w": 112,
+   "h": 256,
+   "occ": [
+    "museum"
+   ]
+  },
+  {
+   "s": "bushOrange",
+   "kind": "bush",
+   "at": [
+    980,
+    346
+   ],
+   "w": 80
+  },
+  {
+   "s": "bushOrange",
+   "kind": "bush",
+   "at": [
+    728,
+    350
+   ],
+   "w": 74,
+   "flip": true,
+   "occ": [
+    "mailbox",
+    "cottage"
+   ]
+  },
+  {
+   "s": "cherry",
+   "kind": "tree",
+   "at": [
+    828,
+    372
+   ],
+   "h": 362,
+   "occ": [
+    "cottage",
+    "mailbox"
+   ]
+  },
+  {
+   "s": "apple",
+   "kind": "tree",
+   "at": [
+    290,
+    404
+   ],
+   "h": 226,
+   "occ": [
+    "cottage"
+   ]
+  },
+  {
+   "s": "hyacinth",
+   "kind": "flower",
+   "head": [
+    970,
+    371
+   ],
+   "hw": 31
+  },
+  {
+   "s": "hyacinth",
+   "kind": "flower",
+   "head": [
+    1007,
+    380
+   ],
+   "hw": 30
+  },
+  {
+   "s": "hyacinth",
+   "kind": "flower",
+   "head": [
+    1048,
+    382
+   ],
+   "hw": 30
+  },
+  {
+   "s": "bushPink",
+   "kind": "bush",
+   "at": [
+    392,
+    458
+   ],
+   "w": 90
+  },
+  {
+   "s": "bushPink",
+   "kind": "bush",
+   "at": [
+    470,
+    455
+   ],
+   "w": 88,
+   "flip": true
+  },
+  {
+   "s": "pine",
+   "kind": "tree",
+   "at": [
+    1442,
+    470
+   ],
+   "w": 125,
+   "h": 250,
+   "occ": [
+    "museum"
+   ]
+  },
+  {
+   "s": "bush",
+   "kind": "bush",
+   "at": [
+    218,
+    468
+   ],
+   "w": 80,
+   "occ": [
+    "fence"
+   ]
+  },
+  {
+   "s": "tulipW",
+   "kind": "flower",
+   "occ": [
+    "fence"
+   ],
+   "at": [
+    271,
+    470
+   ],
+   "h": 66
+  },
+  {
+   "s": "tulipW",
+   "kind": "flower",
+   "occ": [
+    "fence"
+   ],
+   "at": [
+    306,
+    476
+   ],
+   "h": 64
+  },
+  {
+   "s": "tulipW",
+   "kind": "flower",
+   "occ": [
+    "fence"
+   ],
+   "at": [
+    250,
+    483
+   ],
+   "h": 62
+  },
+  {
+   "s": "tulipW",
+   "kind": "flower",
+   "occ": [
+    "fence"
+   ],
+   "at": [
+    288,
+    488
+   ],
+   "h": 62
+  },
+  {
+   "s": "hyacinth",
+   "kind": "flower",
+   "head": [
+    1318,
+    413
+   ],
+   "hw": 31
+  },
+  {
+   "s": "hyacinth",
+   "kind": "flower",
+   "head": [
+    1353,
+    420
+   ],
+   "hw": 30
+  },
+  {
+   "s": "hyacinth",
+   "kind": "flower",
+   "head": [
+    1390,
+    420
+   ],
+   "hw": 30
+  },
+  {
+   "s": "apple",
+   "kind": "tree",
+   "at": [
+    1505,
+    514
+   ],
+   "h": 142,
+   "flip": true
+  },
+  {
+   "s": "bushSmall",
+   "kind": "bush",
+   "at": [
+    572,
+    582
+   ],
+   "w": 70
+  },
+  {
+   "s": "tulipY",
+   "kind": "flower",
+   "at": [
+    1062,
+    586
+   ],
+   "h": 76
+  },
+  {
+   "s": "tulipY",
+   "kind": "flower",
+   "at": [
+    1131,
+    592
+   ],
+   "h": 76
+  },
+  {
+   "s": "tulipY",
+   "kind": "flower",
+   "at": [
+    1097,
+    604
+   ],
+   "h": 74
+  },
+  {
+   "s": "bushSmall",
+   "kind": "bush",
+   "at": [
+    1184,
+    596
+   ],
+   "w": 74,
+   "flip": true
+  },
+  {
+   "s": "bush",
+   "kind": "bush",
+   "at": [
+    332,
+    638
+   ],
+   "w": 110
+  },
+  {
+   "s": "clump",
+   "kind": "bush",
+   "at": [
+    1512,
+    648
+   ],
+   "w": 84
+  },
+  {
+   "s": "bush",
+   "kind": "bush",
+   "at": [
+    1050,
+    684
+   ],
+   "w": 112,
+   "flip": true
+  },
+  {
+   "s": "daisy",
+   "kind": "flower",
+   "head": [
+    597,
+    660
+   ],
+   "hw": 46
+  },
+  {
+   "s": "daisy",
+   "kind": "flower",
+   "head": [
+    562,
+    683
+   ],
+   "hw": 46
+  },
+  {
+   "s": "daisy",
+   "kind": "flower",
+   "head": [
+    640,
+    684
+   ],
+   "hw": 46
+  },
+  {
+   "s": "anemone",
+   "kind": "flower",
+   "head": [
+    1025,
+    689
+   ],
+   "hw": 62
+  },
+  {
+   "s": "daisy",
+   "kind": "flower",
+   "head": [
+    604,
+    708
+   ],
+   "hw": 46
+  },
+  {
+   "s": "anemone",
+   "kind": "flower",
+   "head": [
+    1075,
+    711
+   ],
+   "hw": 60
+  },
+  {
+   "s": "anemone",
+   "kind": "flower",
+   "head": [
+    990,
+    718
+   ],
+   "hw": 60
+  },
+  {
+   "s": "anemone",
+   "kind": "flower",
+   "head": [
+    1031,
+    743
+   ],
+   "hw": 62
+  }
+ ]
+}

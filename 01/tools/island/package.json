@@ -1,0 +1,7 @@
+{
+  "name": "island-tools",
+  "private": true,
+  "type": "module",
+  "description": "生成首页小岛图层的脚本(可选)。需要本机 Chrome,可用 CHROME_PATH 指定路径。",
+  "dependencies": { "playwright-core": "^1.56.0" }
+}
